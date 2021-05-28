@@ -1,0 +1,31 @@
+package ng.com.plustech.mp63kotlin.models
+
+data class Card(
+    var encryptedSessionKey: String,
+    var sessionKeyCheckValue: String,
+    var encryptedPinKey: String,
+    var pinKeyCheckValue: String,
+    var stan: String,
+    var terminalId: String,
+    var processingCode: String,
+    var minorAmount: String,
+    var expiryDate: String,
+    var merchantType: String,
+    var posEntryMode: String,
+    var cardSequenceNumber: String,
+    var posConditionCode: String,
+    var pinCaptureCode: String,
+    var acquiringInstitutionId: String,
+    var encryptedTrack2: String,
+    var track2Ksn: String,
+    var track2Length: String,
+    var encryptedPinBlock: String,
+    var pinBlockKsn: String,
+    var rrn: String,
+    var cardAcceptorId: String,
+    var cardAcceptorLocation: String,
+    var transactionCurrencyCode: String,
+    var emvData: String,
+    var posDataCode: String,
+    var processorKey: String
+) {}
